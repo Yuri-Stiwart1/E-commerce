@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+#menu {
+    position: relative;
+    height: 3vh;
+}
+
+#menu:hover {
+    color: lightgray;
+}
+
+#img_menu {
+    width: 30px;
+    margin-top: 10px;
+}
+
+#logo{
+    width: 200px;
+}
+
+div svg {
+    padding-left: 20px;
+    fill: white;
+}
+
+div svg:hover {
+    fill: lightgray;
+}
+
+#dropmenu { 
+    background-color: white;
+    width: 120px;
+    height: 28vh;
+    list-style: none;
+    opacity: 0;
+    transition: 0.6s ease-in-out ;
+    position: absolute;
+    left: 35px;
+    margin-top: 3px;
+    z-index: -2;
+}
+
+ul li {
+    padding: 5px;
+    margin-top: 5px;
+    transition: .4s ease-in-out;
+}
+
+ul li:hover {
+    background-color: lightgray;
+}
+
+li a {
+   
+    text-decoration: none;
+    color: black;
+}
+
+#menu:hover #dropmenu {
+    opacity: 1;
+    z-index: 10;
+}
+
+#section_div {
+    margin-top: 5%;
+    color: black;
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    height: 40vh;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+#section_div span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3%;
+    height: 50vh;
+    margin-top: 5%;
+   text-align: center;
+}
+
+#div_svg svg {
+
+    font-size: 50px;
+}
+
+svg + h1 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 15px;
+}
+
+h1 + p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+footer {
+    padding: 15px;
+    height: 70vh;
+    background-color:rgb(231, 231, 231);
+  }
+
+  #container4 {
+  display: grid;
+grid-template-columns: 1fr 1fr 1.5fr;
+gap: 2%;
+margin-top: 70px;
+
+  }
+
+  #logo2 {
+    width: 250px;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  div h2 {
+    
+    font-size: 26px;
+    color: black;
+    margin-top: 20px ;
+  text-align: center;
+  margin-right: 60px;
+  }
+
+  span svg {
+    fill: black;
+    margin-left: 35px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  span svg:hover {
+    fill: gray;
+  }
+  
+  #rodape {
+    color: black;
+    width: 150px;
+  }
+
+  #rodape ul {
+    margin-top: 20px;
+    list-style: none;
+  }
+
+div h5 {
+    font-size: 16px;
+    margin-top: 40px ;
+}
+
+  ul li {
+    font-size: 15px ;
+  }
+
+#s {
+    margin-top: 40px;
+}
+
+  h2 + p {
+    color: black;
+    margin-right: 30px;
+    line-height: 23px;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+  #footer2 {
+    display: flex;
+    justify-content: space-between  ;
+    border-top: 1px solid black ;
+    height: 12vh;
+    background-color: rgb(231, 231, 231) ;
+  }
+
+  #slogan {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 20px;
+  }
+
+  #ul_rodape {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+  }
+  .aaaa {
+    text-decoration: underline;
+  }
+
+ 
+
+#footer_div a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#footer_div {
+    background-color: lightgray;
+    width: 100px;
+    height: 5vh;
+    border-radius: 30px;
+    text-align: center;
+    transition: .4s ease-in-out;
+   margin-left: 45%;
+ 
+}
+
+#footer_div:hover {
+    background-color: white;
+}

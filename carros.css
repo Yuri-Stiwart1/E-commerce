@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+#menu {
+    position: relative;
+    height: 3vh;
+}
+
+#menu:hover {
+    color: lightgray;
+}
+
+#img_menu {
+    width: 30px;
+    margin-top: 10px;
+}
+
+#logo{
+    width: 200px;
+}
+
+div svg {
+    padding-left: 20px;
+    fill: white;
+}
+
+div svg:hover {
+    fill: lightgray;
+}
+
+#dropmenu { 
+    background-color: white;
+    width: 120px;
+    height: 28vh;
+    list-style: none;
+    opacity: 0;
+    transition: 0.6s ease-in-out ;
+    position: absolute;
+    left: 35px;
+    margin-top: 3px;
+    z-index: -2;
+}
+
+ul li {
+    padding: 5px;
+    margin-top: 5px;
+    transition: .4s ease-in-out;
+}
+
+ul li:hover {
+    background-color: lightgray;
+}
+
+li a {
+   
+    text-decoration: none;
+    color: black;
+}
+
+#menu:hover #dropmenu {
+    opacity: 1;
+    z-index: 10;
+}
+
+span h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightgray;
+    margin-left: 55px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.container1 {
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+   gap: 2% ;
+  align-items: center;
+  margin: 20px;
+  
+    
+}
+
+main div {
+    background-color: aliceblue;
+    width: 250px;
+    height: 50vh;
+    border-radius: 30px; 
+}
+
+.car {
+    background-color: aliceblue;
+    width: 250px;
+    height: 50vh;
+    border-radius: 30px; 
+    overflow: hidden;
+}
+
+#apresentacao {
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-around ;
+    font-weight: 600;
+}
+
+#linha {
+    width: 400px;
+    border-bottom: 1px solid white  ;
+}
+div img {
+    margin-left: 23px;
+}
+
+div h3 {
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+}
+
+div p {
+    color: rgb(119, 119, 119);
+    text-align: right;
+    margin-right: 15px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+div h1 {
+    color: black;
+    text-align: right;
+    margin-right: 15px;
+}
+
+#comprar{
+    width: 150px;
+    height: 7vh;
+    border-radius: 15px;
+    margin-top: 15px;
+   margin-left: 50px;
+   border: none;
+   background-color: black;
+   color: white;
+   opacity: 0;
+   transition: .4s ease-in-out;
+}
+
+.street:hover #comprar {
+    opacity: 100%;
+}
+
+#motos_prod {
+    width: 240px;
+    margin-left: -1px;
+    margin-top: -10px;
+    transition: .4s ease-in-out;
+}
+
+#motos_prod1 {
+    width: 240px;
+    margin-left: 3px;
+    margin-top: 30px;
+    transition: .4s ease-in-out;
+}
+
+#motos_prod2 {
+    width: 240px;
+    margin-top: -15px;
+    margin-left: -0.1px;
+    transition: .4s ease-in-out;
+}
+
+#comprar1{
+    width: 150px;
+    height: 7vh;
+    border-radius: 15px;
+    margin-top: 15px;
+   margin-left: 50px;
+   border: none;
+   background-color: black;
+   color: white;
+   opacity: 0;
+   transition: .4s ease-in-out;
+}
+
+.car:hover #comprar1 {
+    opacity: 100%;
+}
+
+
+.container2 {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+   gap: 2% ;
+  align-items: center;
+  margin: 20px;   
+}
+
+#comprar{
+    width: 150px;
+    height: 7vh;
+    border-radius: 15px;
+    margin-top: 15px;
+   margin-left: 50px;
+   border: none;
+   background-color: black;
+   color: white;
+   opacity: 0;
+   transition: .4s ease-in-out;
+}
+
+.car:hover #comprar {
+    opacity: 100%;
+}
+
+.container3 {
+    height: 150vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+   gap: 2% ;
+  align-items: center;
+  margin: 20px;   
+}
+
+
+
+footer {
+    padding: 15px;
+    height: 70vh;
+    background-color:rgb(231, 231, 231);
+  }
+
+  #container4 {
+  display: grid;
+grid-template-columns: 1fr 1fr 1.5fr;
+gap: 2%;
+margin-top: 70px;
+
+  }
+
+  #logo2 {
+    width: 250px;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  div h2 {
+    
+    font-size: 26px;
+    color: black;
+    margin-top: 20px ;
+  text-align: center;
+  margin-right: 60px;
+  }
+
+  span svg {
+    fill: black;
+    margin-left: 35px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  span svg:hover {
+    fill: gray;
+  }
+  
+  #rodape {
+    color: black;
+    width: 150px;
+  }
+
+  #rodape ul {
+    margin-top: 20px;
+    list-style: none;
+  }
+
+div h5 {
+    font-size: 16px;
+    margin-top: 40px ;
+}
+
+  ul li {
+    font-size: 15px ;
+  }
+
+#s {
+    margin-top: 40px;
+}
+
+  h2 + p {
+    color: black;
+    margin-right: 30px;
+    line-height: 23px;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+  #footer2 {
+    display: flex;
+    justify-content: space-between  ;
+    border-top: 1px solid black ;
+    height: 12vh;
+    background-color: rgb(231, 231, 231) ;
+  }
+
+  #slogan {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 20px;
+  }
+
+  #ul_rodape {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+  }
+  .aaaa {
+    text-decoration: underline;
+  }
+
+  .car:hover #motos_prod1 {
+        transform: scale(1.15);
+  }
+  .car:hover #motos_prod {
+    transform: scale(1.15);
+}
+.car:hover #motos_prod2 {
+    transform: scale(1.15);
+}
+
+#luxo {
+    width: 215px;
+    transition: .4s ease-in-out;
+    margin-top: 30px;
+   
+
+}
+
+.car:hover #luxo {
+    transform: scale(1.15);
+}
+
+#luxo1 {
+    width: 210px;
+    transition: .4s ease-in-out;
+    margin-top: -10px;
+
+}
+
+.car:hover #luxo1 {
+    transform: scale(1.15);
+}
+
+#luxo2 {
+    width: 220px;
+    transition: .4s ease-in-out;
+    margin-top: 5px;
+
+}
+
+.car:hover #luxo2 {
+    transform: scale(1.15);
+}
+
+#footer_div a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#footer_div {
+    background-color: lightgray;
+    width: 100px;
+    height: 5vh;
+    border-radius: 30px;
+    text-align: center;
+    transition: .4s ease-in-out;
+   margin-left: 45%;
+ 
+}
+
+#footer_div:hover {
+    background-color: white;
+}
+
+#comprar:hover {
+    background-color: rgb(216, 214, 214) ;
+    color: black;
+    font-weight: 500;
+}
